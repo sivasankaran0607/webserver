@@ -75,6 +75,7 @@ nav a:hover {
   justify-content: center;
   gap: 2rem;
   padding: 2rem;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -84,6 +85,11 @@ nav a:hover {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   text-align: center;
   width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
 }
 
 .card img {
@@ -116,3 +122,4 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+
